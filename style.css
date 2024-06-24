@@ -200,4 +200,187 @@ footer p{
 
 }
 
+@media screen and (max-width:780px) {
+    html,body{
+        height: 160%;
+        width: 780px;
+    }
+
+    p{
+        margin-left: 50px;
+        font-size: 2rem;
+        margin-right: 200px;
+    }
+
+    .recipe{
+        height: 100%;
+        max-width: 100%;
+        align-items:start ;
+    }
+
+    .display{
+        height: 110%;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .first-page{
+        margin: 0;
+        width: 100%;
+        height: 1580px;
+    }
+    
+    .first-page img{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .details{
+    
+        width: 780;
+        margin-left: 25px;
+        margin-right: 50px;
+    }
+
+    h1{
+        display: flex;
+        justify-self:center;
+        font-size: 4.5rem;
+    }
+
+    footer{
+        height: 0;
+        width: 0;
+        background-color: #fff;
+    }
+
+    footer p{
+        margin-bottom: 0;
+        font-size: 0;
+    }
+
+    .time{
+        width: 700px;
+        height: 300px;
+    }
+    .container{
+        height: 90%;
+    }
+
+    .container h4{
+        font-size: 3rem;
+    }
+
+    .container ul{
+        margin-top: 30px;
+    }
+
+    .container ul li{
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .ingredients{
+        margin-top: 25px;
+    }
+
+    .ingredients h2{
+        font-size: 3rem;
+    }
+
+    .ingredients ul{
+        margin-top: 30px;
+    }
+
+    .ingredients ul li{
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+    /* instruction */
+    .instruction{
+        height: 700px;
+        width: 90%;
+        margin: 35px;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.374);
+    }
+
+    .instruction h2{
+        font-size: 3rem;
+    }
+    
+    .instruction ul{
+        margin-top: 25px;
+    }
+    
+    .instruction ul li{
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-top: 20px;
+        list-style: decimal ;
+        padding-left: 20px;
+    }
+    
+    .instruction ul li::marker{
+        font-size: 1.5rem;
+        font-weight:800;
+        color: rgb(113, 1, 113);
+    }
+
+
+    /* nutrition */
+
+    .nutrition{
+        height: 400px;
+        width: 90%;
+        margin: 35px;
+    }
+
+    .nutrition h2{
+        font-size: 3rem;
+    }
+    
+    
+    .nutrition p{
+        margin-right: 30px;
+        font-size: 1.5rem;
+        margin-top: 25px;
+    }
+    
+    table{
+        height: 200px;
+        width: 100%;
+        background: #fff;
+        margin-top: 30px;
+        border-collapse: collapse;
+    }
+    
+    tr:last-child{
+        border-bottom: none;
+    }
+    
+    tr{
+        height: 60px;
+        width: 100%;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.374);
+    }
+    
+    .name{
+        font-size:1rem ;
+        color: gray;
+        font-weight: 600;
+        padding-left: 20px;
+    }
+    
+    .weight{
+        font-size:1rem ;
+        color: rgb(128, 69, 21);
+        font-weight: 800;
+    }
+
+}
+
+
+
+
+
 
